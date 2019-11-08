@@ -41,11 +41,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/opt/odoo/VME10.0"
+VIRTUAL_ENV="/opt/odoo/VME/VME10.0"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
-PATH="$VIRTUAL_ENV/bin:$PATH"
+PATH="$VIRTUAL_ENV/.local/bin:$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
 # unset PYTHONHOME if set
@@ -77,4 +77,8 @@ pydoc () {
 if [ -n "${BASH-}" ] || [ -n "${ZSH_VERSION-}" ] ; then
     hash -r 2>/dev/null
 fi
-export HOME="/opt/odoo/VME10.0"
+[ -f /usr/bin/pip2.7 -a ! -f $VIRTUAL_ENV/bin/pip ] && ln -s /usr/bin/pip2.7 $VIRTUAL_ENV/bin/pip
+for f in $VIRTUAL_ENV/bin/*;do
+    [ -x $f ] && sed -i -e "s|^#\!.*/bin/python|#\!$VIRTUAL_ENV/bin/python|" $f
+done
+export HOME=$VIRTUAL_ENV

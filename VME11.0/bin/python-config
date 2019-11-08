@@ -1,4 +1,4 @@
-#!/opt/odoo/VENV_30950/bin/python
+#!/opt/odoo/VME/VME11.0/bin/python
 
 import sys
 import getopt
