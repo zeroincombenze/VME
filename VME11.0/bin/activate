@@ -43,7 +43,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(readlink -f $(dirname $(readlink -f $BASH_SOURCE))/..)"
+VIRTUAL_ENV="/opt/odoo/VME/VME11.0"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

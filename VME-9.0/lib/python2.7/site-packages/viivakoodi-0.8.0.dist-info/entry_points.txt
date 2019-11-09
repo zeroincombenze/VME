@@ -1,0 +1,3 @@
+[console_scripts]
+pybarcode2 = barcode.pybarcode:main
+

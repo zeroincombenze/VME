@@ -1,0 +1,10 @@
+Collecting pycups
+  Using cached https://files.pythonhosted.org/packages/00/ce/836a0deb8b24bcd5f850f8fb97f99fb4abd7374e078b9e6df5a0838f8eb5/pycups-1.9.74.tar.bz2
+Building wheels for collected packages: pycups
+  Building wheel for pycups (setup.py): started
+  Building wheel for pycups (setup.py): finished with status 'done'
+  Created wheel for pycups: filename=pycups-1.9.74-cp27-cp27mu-linux_x86_64.whl size=190884 sha256=1bbb5ff7452f516d86795406d2a1490482f9373b0e73462c8aa6f40228bc0759
+  Stored in directory: /opt/odoo/.cache/pip/wheels/bb/4a/db/d9ea6edeead55ff1b909f3e7aa4384db28ff6ce3ecef0c94f7
+Successfully built pycups
+Installing collected packages: pycups
+Successfully installed pycups-1.9.74

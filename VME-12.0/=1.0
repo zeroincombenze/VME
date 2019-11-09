@@ -1,0 +1,41 @@
+Processing /opt/odoo/.cache/pip/wheels/00/65/6f/c6559068a4bf2bb237524a6970443afc0c0f9cd83c41c00c01/sphinx_patchqueue-1.0.4-cp35-none-any.whl
+Collecting sphinx
+  Using cached https://files.pythonhosted.org/packages/1d/58/a547b02946af1cf337c701cafcf3267065c1c83d6e701f540961f4907b5d/Sphinx-2.2.1-py3-none-any.whl
+Collecting unidiff
+  Using cached https://files.pythonhosted.org/packages/68/52/c7278fc3c17d1aaade84597968d88f97f0f4ec7288ddedb6970a341c5170/unidiff-0.5.5-py2.py3-none-any.whl
+Collecting imagesize
+  Using cached https://files.pythonhosted.org/packages/fc/b6/aef66b4c52a6ad6ac18cf6ebc5731ed06d8c9ae4d3b2d9951f261150be67/imagesize-1.1.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-devhelp
+  Using cached https://files.pythonhosted.org/packages/b0/a3/fea98741f0b2f2902fbf6c35c8e91b22cd0dd13387291e81d457f9a93066/sphinxcontrib_devhelp-1.0.1-py2.py3-none-any.whl
+Collecting sphinxcontrib-jsmath
+  Using cached https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl
+Collecting alabaster<0.8,>=0.7
+  Using cached https://files.pythonhosted.org/packages/10/ad/00b090d23a222943eb0eda509720a404f531a439e803f6538f35136cae9e/alabaster-0.7.12-py2.py3-none-any.whl
+Collecting sphinxcontrib-serializinghtml
+  Using cached https://files.pythonhosted.org/packages/57/b3/3648e48fa5682e61e9839d62de4e23af1795ceb738d68d73bd974257a95c/sphinxcontrib_serializinghtml-1.1.3-py2.py3-none-any.whl
+Collecting snowballstemmer>=1.1
+  Using cached https://files.pythonhosted.org/packages/7d/4b/cdf1113a0e88b641893b814e9c36f69a6fda28cd88b62c7f0d858cde3166/snowballstemmer-2.0.0-py2.py3-none-any.whl
+Requirement already satisfied: babel!=2.0,>=1.3 in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (2.3.4)
+Collecting packaging
+  Using cached https://files.pythonhosted.org/packages/cf/94/9672c2d4b126e74c4496c6b3c58a8b51d6419267be9e70660ba23374c875/packaging-19.2-py2.py3-none-any.whl
+Requirement already satisfied: requests>=2.5.0 in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (2.20.0)
+Requirement already satisfied: setuptools in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (41.6.0)
+Requirement already satisfied: Pygments>=2.0 in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (2.2.0)
+Requirement already satisfied: Jinja2>=2.3 in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (2.8.1)
+Requirement already satisfied: docutils>=0.12 in ./lib/python3.5/site-packages (from sphinx->sphinx-patchqueue) (0.14)
+Collecting sphinxcontrib-applehelp
+  Using cached https://files.pythonhosted.org/packages/13/9a/4428b3114d654cb1cd34d90d5e6fab938d5436f94a571155187ea1dd78b4/sphinxcontrib_applehelp-1.0.1-py2.py3-none-any.whl
+Collecting sphinxcontrib-htmlhelp
+  Using cached https://files.pythonhosted.org/packages/e4/35/80a67cc493f4a8a9634ab203a77aaa1b84d79ccb1c02eca72cb084d2c7f7/sphinxcontrib_htmlhelp-1.0.2-py2.py3-none-any.whl
+Collecting sphinxcontrib-qthelp
+  Using cached https://files.pythonhosted.org/packages/ce/5b/4747c3ba98b3a3e21a66faa183d8f79b9ded70e74212a7988d236a6eb78a/sphinxcontrib_qthelp-1.0.2-py2.py3-none-any.whl
+Requirement already satisfied: pytz>=0a in ./lib/python3.5/site-packages (from babel!=2.0,>=1.3->sphinx->sphinx-patchqueue) (2016.7)
+Requirement already satisfied: six in ./lib/python3.5/site-packages (from packaging->sphinx->sphinx-patchqueue) (1.10.0)
+Requirement already satisfied: pyparsing>=2.0.2 in ./lib/python3.5/site-packages (from packaging->sphinx->sphinx-patchqueue) (2.1.10)
+Requirement already satisfied: idna<2.8,>=2.5 in ./lib/python3.5/site-packages (from requests>=2.5.0->sphinx->sphinx-patchqueue) (2.7)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in ./lib/python3.5/site-packages (from requests>=2.5.0->sphinx->sphinx-patchqueue) (1.24.3)
+Requirement already satisfied: certifi>=2017.4.17 in ./lib/python3.5/site-packages (from requests>=2.5.0->sphinx->sphinx-patchqueue) (2019.9.11)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in ./lib/python3.5/site-packages (from requests>=2.5.0->sphinx->sphinx-patchqueue) (3.0.4)
+Requirement already satisfied: MarkupSafe in ./lib/python3.5/site-packages (from Jinja2>=2.3->sphinx->sphinx-patchqueue) (1.1.1)
+Installing collected packages: imagesize, sphinxcontrib-devhelp, sphinxcontrib-jsmath, alabaster, sphinxcontrib-serializinghtml, snowballstemmer, packaging, sphinxcontrib-applehelp, sphinxcontrib-htmlhelp, sphinxcontrib-qthelp, sphinx, unidiff, sphinx-patchqueue
+Successfully installed alabaster-0.7.12 imagesize-1.1.0 packaging-19.2 snowballstemmer-2.0.0 sphinx-2.2.1 sphinx-patchqueue-1.0.4 sphinxcontrib-applehelp-1.0.1 sphinxcontrib-devhelp-1.0.1 sphinxcontrib-htmlhelp-1.0.2 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.2 sphinxcontrib-serializinghtml-1.1.3 unidiff-0.5.5

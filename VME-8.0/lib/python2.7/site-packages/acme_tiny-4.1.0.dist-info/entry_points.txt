@@ -1,0 +1,3 @@
+[console_scripts]
+acme-tiny = acme_tiny:main
+
